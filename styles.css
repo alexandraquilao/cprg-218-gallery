@@ -70,4 +70,23 @@ margin: 0 auto;
     }
  }
 
- 
+ /*for less than 768px wide*/ 
+ @media screen and (max-width){
+    #gallery-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    figure:last-child{
+        grid-column: span 1;
+    }
+     nav{
+        background-color: #d9043d;
+        max-width: 95%;
+     }
+     nav ul{
+        width: 95%;
+     }
+     header ul li a{
+        border: #97bf04 3px solid;
+     }
+ }
