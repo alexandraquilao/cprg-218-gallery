@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    background-color: #cccccc;
+}
+/*general styling*/
+header{
+    background-color: #120323;
+}
+
+h1{
+    color: #97bf04;
+}
+
+nav, footer{
+    background-color: #d9043d;
+}
+
+figure img{
+    border-bottom: #97bf04 10px solid;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
