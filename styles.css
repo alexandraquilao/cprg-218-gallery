@@ -11,15 +11,49 @@ header{
 h1{
     color: #97bf04;
 }
-
-nav, footer{
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
     background-color: #d9043d;
 }
 
+ footer{
+    background-color: #d9043d;
+    text-align: center;
+}
+
+
 figure img{
     border-bottom: #97bf04 10px solid;
+    width: 100%;
+    max-width: 650px auto;
+    align-items: center;
+    justify-content: center;
 }
 body{
     margin: 0;
     padding: 0;
+}
+.gallery img{
+width: 100%;
+max-width: 650px;
+display: block;
+margin: 0 auto;
+}
+/*devices greater than 1000px */
+
+@media screen and (min-width: 1000px) {
+    #gallery-container{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    figure:last-child{
+        grid-column: span 2;
+    }
+    
+
 }
