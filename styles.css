@@ -54,6 +54,20 @@ margin: 0 auto;
     figure:last-child{
         grid-column: span 2;
     }
-    
+
 
 }
+
+/*devices less than 1000px wide*/
+ @media screen and (max-width: 1000px){
+    #gallery-container{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2,1fr);
+    }
+    figure:last-child{
+        grid-column: span 2;
+    }
+ }
+
+ 
