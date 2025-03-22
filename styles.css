@@ -8,8 +8,7 @@
 
 body{
     background-color: #cccccc;
-    margin: 0;
-    padding: 0;
+    
 }
 
 header{
@@ -56,8 +55,8 @@ figure img{
     border-bottom: #97bf04 10px solid;
     width: 100%;
     max-width: 650px ;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
 body{
     margin: 0;
