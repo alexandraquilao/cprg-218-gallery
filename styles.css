@@ -1,15 +1,27 @@
 *{
     box-sizing: border-box;
     font-family:sans-serif;
-    background-color: #cccccc;
+
 }
+
 /*general styling*/
+
+body{
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background-color: #120323;
+    align-items: center;
+    justify-content: space-around;
 }
 
 h1{
     color: #97bf04;
+    align-items: center;
+    justify-content: center;
 }
 nav{
     display: flex;
@@ -28,7 +40,7 @@ nav{
 figure img{
     border-bottom: #97bf04 10px solid;
     width: 100%;
-    max-width: 650px auto;
+    max-width: 650px ;
     align-items: center;
     justify-content: center;
 }
@@ -71,7 +83,7 @@ margin: 0 auto;
  }
 
  /*for less than 768px wide*/ 
- @media screen and (max-width){
+ @media screen and (max-width: 767px){
     #gallery-container{
         display: grid;
         grid-template-columns: 1fr;
